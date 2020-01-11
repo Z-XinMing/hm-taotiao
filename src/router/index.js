@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 const Layout = () => import('@/views/layout')
 const Home = () => import('@/views/home')
 const Question = () => import('@/views/question')
-const Video = () => import('@/views/question')
+const Video = () => import('@/views/video')
 const User = () => import('@/views/user')
 const Profile = () => import('@/views/user/profile')
 const Chat = () => import('@/views/user/chat')
