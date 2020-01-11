@@ -1,6 +1,11 @@
 <template>
   <div>
-      问答
+    <div class='split'></div>
+    <van-skeleton title :row="3" />
+    <div class='split'></div>
+    <van-skeleton title :row="3" />
+    <div class='split'></div>
+    <van-skeleton title :row="3" />
   </div>
 </template>
 
@@ -11,5 +16,4 @@ export default {
 </script>
 
 <style>
-
 </style>
